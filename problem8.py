@@ -10,11 +10,11 @@ def combine_sequence(n,f=None ,combine=None): #modify this line as needed to mee
   if f is None: f= identify
   if combine is None: combine=add
 
-def add(x,y):
-   return x + y
-def identity(x):
-   return x
   if n==1:
     return f(1)
   else:
     return combine(combine_sequence(n-1, f, combine), f(n))
+def add(x,y):
+   return x + y
+def identity(x):
+   return x
