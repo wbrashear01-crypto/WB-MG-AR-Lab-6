@@ -9,21 +9,10 @@ def powers_of_two(n):
   4
   8
   """
-  if n==1:
-    return 0
-  elif  2**1<=n:
-    m=1
-    m=1+m
-    print(2**1)
-  if 2**m<=n:
-    m=1+m
-    print(2**m)
-    powers_of_two(n)
-    print(2**)
-  else:
-    m=1+m
-    powers_of_two(n-1)
-    print(2
+  x=2
+  while x<=n:
+    print(x)
+    x= x*2
     
   
     
