@@ -11,4 +11,5 @@ def factorial_trailing_zeros(n):
   >>> factorial_trailing_zeros(17)
   3
   """
+  
   return n // 5
